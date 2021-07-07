@@ -10,14 +10,14 @@ const Drawer = createDrawerNavigator();
 
 const SplashScreen = ({ navigation }) => {
   setTimeout(() => {
-    navigation.navigate('FirstScreen')
+    navigation.navigate('FirstScreen');
   }, 3000);
   return (
     <View style={styles.Container}>
-      <Image source={require("../assets/splash_image.jpg")} />
+      <Image source={require('../assets/splash_image.jpg')} />
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   Container: {
@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     margin: 0,
-    backgroundColor: "#66CDAA"
-  }
+    backgroundColor: '#66CDAA',
+  },
 });
 
 export default function Routes() {

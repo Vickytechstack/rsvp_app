@@ -248,7 +248,7 @@ const styles = StyleSheet.create({
     textAlignVertical: 'center',
     paddingLeft: 12,
     marginTop: 15,
-    color: date === 'Date of Birth*' ? 'black' : 'brown',
+    color: 'brown',
   },
 });
 
